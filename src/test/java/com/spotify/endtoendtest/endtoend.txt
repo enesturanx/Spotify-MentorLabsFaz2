@@ -1,0 +1,14 @@
+
+*****SENARYO****
+
+* Sisteme başarılı şekilde giriş yapılır.
+* Anasayfada 'Ruh Hali' kategorisine scroll yapılır.
+* 'Ruh Hali' kategorisine tıklanır.
+* Bu kategori üzerinde 'Pozitif' çalma listesine girilir.(UI)
+* Bu çalma listesinden ilk 3 şarkı Beğenilen şarkılar listesine eklenir.(UI)
+* Beğenilen şarkılar butonuna tıklanır.(UI)
+* Beğenilen şarkılar listesi çalıştırılır.(UI)
+* Beğenilen tüm şarkılar 'Beğenilen şarkılar listesinden kaldırılır' (API)
+* Listeden kaldırılıp kaldırılmadığı kontrol edilir.(API)
+
+*****************

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.com.spotify.endtoendtest.endtoend</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-22 09:28:47 ÖÖ</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Endtoend Test Scenario</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/com/spotify/endtoendtest/endtoend.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">End to end Test</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Endtoend Test Scenario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1976</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = {type:&#39;chromedriver&#39; , executable:&#39;src/test/resources/chromedriver.exe&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">09:28:45.762 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read &#39;classpath:com/spotify/hybridtest/variables.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref failed">7</div>
+      
+      <div class="step-cell failed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1944</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">09:28:47.767 driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: This version of ChromeDriver only supports Chrome version 101\nCurrent browser version is 103.0.5060.53 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe&quot;,&quot;stacktrace&quot;:&quot;Backtrace:\n\tOrdinal0 [0x0058B8F3+2406643]\n\tOrdinal0 [0x0051AF31+1945393]\n\tOrdinal0 [0x0040C748+837448]\n\tOrdinal0 [0x0042C8B3+968883]\n\tOrdinal0 [0x004284BA+951482]\n\tOrdinal0 [0x00425D71+941425]\n\tOrdinal0 [0x00458EE0+1150688]\n\tOrdinal0 [0x00458B3A+1149754]\n\tOrdinal0 [0x00454096+1130646]\n\tOrdinal0 [0x0042E636+976438]\n\tOrdinal0 [0x0042F546+980294]\n\tGetHandleVerifier [0x007F9612+2498066]\n\tGetHandleVerifier [0x007EC920+2445600]\n\tGetHandleVerifier [0x00624F2A+579370]\n\tGetHandleVerifier [0x00623D36+574774]\n\tOrdinal0 [0x00521C0B+1973259]\n\tOrdinal0 [0x00526688+1992328]\n\tOrdinal0 [0x00526775+1992565]\n\tOrdinal0 [0x0052F8D1+2029777]\n\tBaseThreadInitThunk [0x75B36739+25]\n\tRtlGetFullPathName_UEx [0x77058FEF+1215]\n\tRtlGetFullPathName_UEx [0x77058FBD+1165]\n&quot;}}, options: {type=chromedriver, executable=src/test/resources/chromedriver.exe, target=null}
+09:28:47.768 src/test/java/com/spotify/endtoendtest/endtoend.feature:7
+Given driver &#39;https://open.spotify.com/&#39;
+driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: This version of ChromeDriver only supports Chrome version 101\nCurrent browser version is 103.0.5060.53 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe&quot;,&quot;stacktrace&quot;:&quot;Backtrace:\n\tOrdinal0 [0x0058B8F3+2406643]\n\tOrdinal0 [0x0051AF31+1945393]\n\tOrdinal0 [0x0040C748+837448]\n\tOrdinal0 [0x0042C8B3+968883]\n\tOrdinal0 [0x004284BA+951482]\n\tOrdinal0 [0x00425D71+941425]\n\tOrdinal0 [0x00458EE0+1150688]\n\tOrdinal0 [0x00458B3A+1149754]\n\tOrdinal0 [0x00454096+1130646]\n\tOrdinal0 [0x0042E636+976438]\n\tOrdinal0 [0x0042F546+980294]\n\tGetHandleVerifier [0x007F9612+2498066]\n\tGetHandleVerifier [0x007EC920+2445600]\n\tGetHandleVerifier [0x00624F2A+579370]\n\tGetHandleVerifier [0x00623D36+574774]\n\tOrdinal0 [0x00521C0B+1973259]\n\tOrdinal0 [0x00526688+1992328]\n\tOrdinal0 [0x00526775+1992565]\n\tOrdinal0 [0x0052F8D1+2029777]\n\tBaseThreadInitThunk [0x75B36739+25]\n\tRtlGetFullPathName_UEx [0x77058FEF+1215]\n\tRtlGetFullPathName_UEx [0x77058FBD+1165]\n&quot;}}, options: {type=chromedriver, executable=src/test/resources/chromedriver.exe, target=null}
+src/test/java/com/spotify/endtoendtest/endtoend.feature:7
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref skipped">8</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def login = callonce read(&#39;classpath:com/spotify/login.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
