@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.com.spotify.endtoendtest.endtoend</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-27 10:43:49 ÖÖ</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:31]"><span>[1:31]</span> <span>Endtoend Test Scenario</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/com/spotify/endtoendtest/endtoend.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">End to end Test</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:31]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:31]</span>
+                <span class="scenario-name">Endtoend Test Scenario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>33630</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:31]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = {type:&#39;chromedriver&#39; , executable:&#39;src/test/resources/chromedriver.exe&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">10:43:11.070 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read &#39;classpath:com/spotify/variables.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.spotify.com/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = {Content-Type: &#39;application/json&#39;, Authorization: #(authID)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def random = function(max){ return Math.floor(Math.random() * (max-3+1)) + 3 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def clickFunction =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.8">function(element,length) {
+    for(var i = 0; i &lt; length ; i++){
+    element[i].click();
+    }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref bg-step">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def getUris =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.17">function(length,y) {
+    var data = &quot;&quot;;
+    for(var i = 0; i&lt; length ; i++){
+        if(i&gt;0){
+          data += &quot;,&quot;;
+        }
+      data += y.items[i].track.id ;
+    }
+    return data;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Login</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4450</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">10:43:11.137 preferred port 9515 not available, will use: 60121
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def login = callonce read(&#39;classpath:com/spotify/login.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3743</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">10:43:19.334 &lt;&lt; lock released, cached callonce: read(&#39;classpath:com/spotify/login.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.35.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">com.spotify.login</div>
+      </div>
+      <div class="time-cell passed">3701</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># Login to account(UI)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>maximize()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">141</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35.0.call.0.6">10:43:15.603 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:com/spotify/login.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>waitFor(login.loginButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">130</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.username).input(username)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3244</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35.0.call.0.8">10:43:15.919 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.password).input(password)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">159</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.sendButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match waitFor(homePage.userBar).enabled == true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3666</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">10:43:19.353 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Scroll to &#39;mood&#39; category and click and then click &#39;Positive&#39; playlist .</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(homePage.categoryList)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">135</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def categoryList = locateAll(homePage.categoryList)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>categoryList[random(categoryList.length)].click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">117</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(homePage.categoryPl)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3036</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.42">10:43:23.297 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def plList = locateAll(homePage.categoryPl)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>plList[random(plList.length)].click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">80</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#When scroll(category.ruhhali)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And waitFor(category.ruhhali).click()</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And waitFor(playList.pozitif).click()</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(playList.title)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3030</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">10:43:26.431 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#The songs in the playlist are filtered and the first 5 songs are added to the likes.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def filter = function(x){return x.attribute(&#39;class&#39;).contains(song.addButton) }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def songList = locateAll(song.addButtons, filter)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">373</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>clickFunction(songList,3)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">133</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Click on the &#39;Favorite Songs&#39; button. And the songs in the list are started.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(homePage.favoriteSongs).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">86</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(song.playButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3059</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.57">10:43:30.051 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>delay(10000)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10016</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#The song ids in the &#39;favorite songs&#39; list are obtained.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">806</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.62">10:43:43.125 request:
+1 &gt; GET https://api.spotify.com/v1/me/tracks
+1 &gt; Content-Type: application/json
+1 &gt; Authorization: Bearer BQDXTCQN2XCTjF1X2nK0_UJl8Q_mH3aleO6lmiJgMM31lchaYhxOq5NaeJUezDvt5kYmMyFHs21a2LTE1T1ZW-Dr11VX2mK_TWRl_uWLENpdAewN8Xv6q3GAXsksQHdNkFWpPEm0ZcMEgo88mqBHjaD_sI1AIMKnkbaYRQU5nLeXp8FrCTi6a3lg_3Hj25waXO6lln0ks5L6LCtW-wagPogx_8WXGeGoEQPXvKHZN8V1RZqftMzk5XCa3svgPa7FYtLDho98M-waP36QPy9MCVliFuupg0HTnZwZbXgj9A
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:43:43.918 response time in milliseconds: 788
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; etag: &quot;MC-ImQ1N2EwODg5MTdmYjFjOWQ5NDI3YjA2NDcyZTY0MTIyIg==&quot;
+1 &lt; vary: Authorization
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 27 Jun 2022 07:43:51 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;href&quot; : &quot;https://api.spotify.com/v1/me/tracks?offset=0&amp;limit=20&quot;,
+  &quot;items&quot; : [ {
+    &quot;added_at&quot; : &quot;2022-06-27T07:43:37Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/1lIbZfJvMQRqzhtCQsg5EI&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/1lIbZfJvMQRqzhtCQsg5EI&quot;,
+          &quot;id&quot; : &quot;1lIbZfJvMQRqzhtCQsg5EI&quot;,
+          &quot;name&quot; : &quot;Cem Karaca&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:1lIbZfJvMQRqzhtCQsg5EI&quot;
+        } ],
+        &quot;available_markets&quot; : [ &quot;AD&quot;, &quot;AE&quot;, &quot;AG&quot;, &quot;AL&quot;, &quot;AM&quot;, &quot;AO&quot;, &quot;AR&quot;, &quot;AT&quot;, &quot;AU&quot;, &quot;AZ&quot;, &quot;BA&quot;, &quot;BB&quot;, &quot;BD&quot;, &quot;BE&quot;, &quot;BF&quot;, &quot;BG&quot;, &quot;BH&quot;, &quot;BI&quot;, &quot;BJ&quot;, &quot;BN&quot;, &quot;BO&quot;, &quot;BR&quot;, &quot;BS&quot;, &quot;BT&quot;, &quot;BW&quot;, &quot;BY&quot;, &quot;BZ&quot;, &quot;CA&quot;, &quot;CD&quot;, &quot;CG&quot;, &quot;CH&quot;, &quot;CI&quot;, &quot;CL&quot;, &quot;CM&quot;, &quot;CO&quot;, &quot;CR&quot;, &quot;CV&quot;, &quot;CW&quot;, &quot;CY&quot;, &quot;CZ&quot;, &quot;DE&quot;, &quot;DJ&quot;, &quot;DK&quot;, &quot;DM&quot;, &quot;DO&quot;, &quot;DZ&quot;, &quot;EC&quot;, &quot;EE&quot;, &quot;EG&quot;, &quot;ES&quot;, &quot;FI&quot;, &quot;FJ&quot;, &quot;FM&quot;, &quot;FR&quot;, &quot;GA&quot;, &quot;GB&quot;, &quot;GD&quot;, &quot;GE&quot;, &quot;GH&quot;, &quot;GM&quot;, &quot;GN&quot;, &quot;GQ&quot;, &quot;GR&quot;, &quot;GT&quot;, &quot;GW&quot;, &quot;GY&quot;, &quot;HK&quot;, &quot;HN&quot;, &quot;HR&quot;, &quot;HT&quot;, &quot;HU&quot;, &quot;ID&quot;, &quot;IE&quot;, &quot;IL&quot;, &quot;IN&quot;, &quot;IQ&quot;, &quot;IS&quot;, &quot;IT&quot;, &quot;JM&quot;, &quot;JO&quot;, &quot;JP&quot;, &quot;KE&quot;, &quot;KG&quot;, &quot;KH&quot;, &quot;KI&quot;, &quot;KM&quot;, &quot;KN&quot;, &quot;KR&quot;, &quot;KW&quot;, &quot;KZ&quot;, &quot;LA&quot;, &quot;LB&quot;, &quot;LC&quot;, &quot;LI&quot;, &quot;LK&quot;, &quot;LR&quot;, &quot;LS&quot;, &quot;LT&quot;, &quot;LU&quot;, &quot;LV&quot;, &quot;LY&quot;, &quot;MA&quot;, &quot;MC&quot;, &quot;MD&quot;, &quot;ME&quot;, &quot;MG&quot;, &quot;MH&quot;, &quot;MK&quot;, &quot;ML&quot;, &quot;MN&quot;, &quot;MO&quot;, &quot;MR&quot;, &quot;MT&quot;, &quot;MU&quot;, &quot;MV&quot;, &quot;MW&quot;, &quot;MX&quot;, &quot;MY&quot;, &quot;MZ&quot;, &quot;NA&quot;, &quot;NE&quot;, &quot;NG&quot;, &quot;NI&quot;, &quot;NL&quot;, &quot;NO&quot;, &quot;NP&quot;, &quot;NR&quot;, &quot;NZ&quot;, &quot;OM&quot;, &quot;PA&quot;, &quot;PE&quot;, &quot;PG&quot;, &quot;PH&quot;, &quot;PK&quot;, &quot;PL&quot;, &quot;PS&quot;, &quot;PT&quot;, &quot;PW&quot;, &quot;PY&quot;, &quot;QA&quot;, &quot;RO&quot;, &quot;RS&quot;, &quot;RW&quot;, &quot;SA&quot;, &quot;SB&quot;, &quot;SC&quot;, &quot;SE&quot;, &quot;SG&quot;, &quot;SI&quot;, &quot;SK&quot;, &quot;SL&quot;, &quot;SM&quot;, &quot;SN&quot;, &quot;SR&quot;, &quot;ST&quot;, &quot;SV&quot;, &quot;SZ&quot;, &quot;TD&quot;, &quot;TG&quot;, &quot;TH&quot;, &quot;TJ&quot;, &quot;TL&quot;, &quot;TN&quot;, &quot;TO&quot;, &quot;TR&quot;, &quot;TT&quot;, &quot;TV&quot;, &quot;TW&quot;, &quot;TZ&quot;, &quot;UA&quot;, &quot;UG&quot;, &quot;US&quot;, &quot;UY&quot;, &quot;UZ&quot;, &quot;VC&quot;, &quot;VE&quot;, &quot;VN&quot;, &quot;VU&quot;, &quot;WS&quot;, &quot;XK&quot;, &quot;ZA&quot;, &quot;ZM&quot;, &quot;ZW&quot; ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/3oeKtnCUoM42ZiLMR6RoVf&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/3oeKtnCUoM42ZiLMR6RoVf&quot;,
+        &quot;id&quot; : &quot;3oeKtnCUoM42ZiLMR6RoVf&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b273cbd20cf193d0d6606cbf6c51&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e02cbd20cf193d0d6606cbf6c51&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00004851cbd20cf193d0d6606cbf6c51&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;Bindik Bir Alamete&quot;,
+        &quot;release_date&quot; : &quot;1999&quot;,
+        &quot;release_date_precision&quot; : &quot;year&quot;,
+        &quot;total_tracks&quot; : 11,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:3oeKtnCUoM42ZiLMR6RoVf&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/1lIbZfJvMQRqzhtCQsg5EI&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/1lIbZfJvMQRqzhtCQsg5EI&quot;,
+        &quot;id&quot; : &quot;1lIbZfJvMQRqzhtCQsg5EI&quot;,
+        &quot;name&quot; : &quot;Cem Karaca&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:1lIbZfJvMQRqzhtCQsg5EI&quot;
+      } ],
+      &quot;available_markets&quot; : [ &quot;AD&quot;, &quot;AE&quot;, &quot;AG&quot;, &quot;AL&quot;, &quot;AM&quot;, &quot;AO&quot;, &quot;AR&quot;, &quot;AT&quot;, &quot;AU&quot;, &quot;AZ&quot;, &quot;BA&quot;, &quot;BB&quot;, &quot;BD&quot;, &quot;BE&quot;, &quot;BF&quot;, &quot;BG&quot;, &quot;BH&quot;, &quot;BI&quot;, &quot;BJ&quot;, &quot;BN&quot;, &quot;BO&quot;, &quot;BR&quot;, &quot;BS&quot;, &quot;BT&quot;, &quot;BW&quot;, &quot;BY&quot;, &quot;BZ&quot;, &quot;CA&quot;, &quot;CD&quot;, &quot;CG&quot;, &quot;CH&quot;, &quot;CI&quot;, &quot;CL&quot;, &quot;CM&quot;, &quot;CO&quot;, &quot;CR&quot;, &quot;CV&quot;, &quot;CW&quot;, &quot;CY&quot;, &quot;CZ&quot;, &quot;DE&quot;, &quot;DJ&quot;, &quot;DK&quot;, &quot;DM&quot;, &quot;DO&quot;, &quot;DZ&quot;, &quot;EC&quot;, &quot;EE&quot;, &quot;EG&quot;, &quot;ES&quot;, &quot;FI&quot;, &quot;FJ&quot;, &quot;FM&quot;, &quot;FR&quot;, &quot;GA&quot;, &quot;GB&quot;, &quot;GD&quot;, &quot;GE&quot;, &quot;GH&quot;, &quot;GM&quot;, &quot;GN&quot;, &quot;GQ&quot;, &quot;GR&quot;, &quot;GT&quot;, &quot;GW&quot;, &quot;GY&quot;, &quot;HK&quot;, &quot;HN&quot;, &quot;HR&quot;, &quot;HT&quot;, &quot;HU&quot;, &quot;ID&quot;, &quot;IE&quot;, &quot;IL&quot;, &quot;IN&quot;, &quot;IQ&quot;, &quot;IS&quot;, &quot;IT&quot;, &quot;JM&quot;, &quot;JO&quot;, &quot;JP&quot;, &quot;KE&quot;, &quot;KG&quot;, &quot;KH&quot;, &quot;KI&quot;, &quot;KM&quot;, &quot;KN&quot;, &quot;KR&quot;, &quot;KW&quot;, &quot;KZ&quot;, &quot;LA&quot;, &quot;LB&quot;, &quot;LC&quot;, &quot;LI&quot;, &quot;LK&quot;, &quot;LR&quot;, &quot;LS&quot;, &quot;LT&quot;, &quot;LU&quot;, &quot;LV&quot;, &quot;LY&quot;, &quot;MA&quot;, &quot;MC&quot;, &quot;MD&quot;, &quot;ME&quot;, &quot;MG&quot;, &quot;MH&quot;, &quot;MK&quot;, &quot;ML&quot;, &quot;MN&quot;, &quot;MO&quot;, &quot;MR&quot;, &quot;MT&quot;, &quot;MU&quot;, &quot;MV&quot;, &quot;MW&quot;, &quot;MX&quot;, &quot;MY&quot;, &quot;MZ&quot;, &quot;NA&quot;, &quot;NE&quot;, &quot;NG&quot;, &quot;NI&quot;, &quot;NL&quot;, &quot;NO&quot;, &quot;NP&quot;, &quot;NR&quot;, &quot;NZ&quot;, &quot;OM&quot;, &quot;PA&quot;, &quot;PE&quot;, &quot;PG&quot;, &quot;PH&quot;, &quot;PK&quot;, &quot;PL&quot;, &quot;PS&quot;, &quot;PT&quot;, &quot;PW&quot;, &quot;PY&quot;, &quot;QA&quot;, &quot;RO&quot;, &quot;RS&quot;, &quot;RW&quot;, &quot;SA&quot;, &quot;SB&quot;, &quot;SC&quot;, &quot;SE&quot;, &quot;SG&quot;, &quot;SI&quot;, &quot;SK&quot;, &quot;SL&quot;, &quot;SM&quot;, &quot;SN&quot;, &quot;SR&quot;, &quot;ST&quot;, &quot;SV&quot;, &quot;SZ&quot;, &quot;TD&quot;, &quot;TG&quot;, &quot;TH&quot;, &quot;TJ&quot;, &quot;TL&quot;, &quot;TN&quot;, &quot;TO&quot;, &quot;TR&quot;, &quot;TT&quot;, &quot;TV&quot;, &quot;TW&quot;, &quot;TZ&quot;, &quot;UA&quot;, &quot;UG&quot;, &quot;US&quot;, &quot;UY&quot;, &quot;UZ&quot;, &quot;VC&quot;, &quot;VE&quot;, &quot;VN&quot;, &quot;VU&quot;, &quot;WS&quot;, &quot;XK&quot;, &quot;ZA&quot;, &quot;ZM&quot;, &quot;ZW&quot; ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 213054,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR-734-08-00362&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/0zLhtDb5qftpfQRknw5XIl&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/0zLhtDb5qftpfQRknw5XIl&quot;,
+      &quot;id&quot; : &quot;0zLhtDb5qftpfQRknw5XIl&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Bindik Bir Alamete Gideyoz Kıyamete&quot;,
+      &quot;popularity&quot; : 49,
+      &quot;preview_url&quot; : &quot;https://p.scdn.co/mp3-preview/e5de011a8004dc89e7ccce87e61b84c187dc73df?cid=774b29d4f13844c495f206cafdad9c86&quot;,
+      &quot;track_number&quot; : 1,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:0zLhtDb5qftpfQRknw5XIl&quot;
+    }
+  }, {
+    &quot;added_at&quot; : &quot;2022-06-27T07:43:37Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/3eVuump9qyK0YCQQo4mKbc&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/3eVuump9qyK0YCQQo4mKbc&quot;,
+          &quot;id&quot; : &quot;3eVuump9qyK0YCQQo4mKbc&quot;,
+          &quot;name&quot; : &quot;Barış Manço&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:3eVuump9qyK0YCQQo4mKbc&quot;
+        } ],
+        &quot;available_markets&quot; : [ ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/241PNKps0x7HTB9nCul3Dq&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/241PNKps0x7HTB9nCul3Dq&quot;,
+        &quot;id&quot; : &quot;241PNKps0x7HTB9nCul3Dq&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b273084d5f19986cbb1c86e4d85a&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e02084d5f19986cbb1c86e4d85a&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00004851084d5f19986cbb1c86e4d85a&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;Mançoloji 2&quot;,
+        &quot;release_date&quot; : &quot;1999-02-23&quot;,
+        &quot;release_date_precision&quot; : &quot;day&quot;,
+        &quot;total_tracks&quot; : 12,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:241PNKps0x7HTB9nCul3Dq&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/3eVuump9qyK0YCQQo4mKbc&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/3eVuump9qyK0YCQQo4mKbc&quot;,
+        &quot;id&quot; : &quot;3eVuump9qyK0YCQQo4mKbc&quot;,
+        &quot;name&quot; : &quot;Barış Manço&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:3eVuump9qyK0YCQQo4mKbc&quot;
+      } ],
+      &quot;available_markets&quot; : [ ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 370782,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR0070501165&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/65TXGnfQ1dwuhkksqu7yo0&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/65TXGnfQ1dwuhkksqu7yo0&quot;,
+      &quot;id&quot; : &quot;65TXGnfQ1dwuhkksqu7yo0&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Dönence&quot;,
+      &quot;popularity&quot; : 3,
+      &quot;preview_url&quot; : null,
+      &quot;track_number&quot; : 1,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:65TXGnfQ1dwuhkksqu7yo0&quot;
+    }
+  }, {
+    &quot;added_at&quot; : &quot;2022-06-27T07:43:37Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/2yMN0IP20GOaN6q0p0zL5k&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/2yMN0IP20GOaN6q0p0zL5k&quot;,
+          &quot;id&quot; : &quot;2yMN0IP20GOaN6q0p0zL5k&quot;,
+          &quot;name&quot; : &quot;Tarkan&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:2yMN0IP20GOaN6q0p0zL5k&quot;
+        } ],
+        &quot;available_markets&quot; : [ &quot;AD&quot;, &quot;AE&quot;, &quot;AG&quot;, &quot;AL&quot;, &quot;AM&quot;, &quot;AO&quot;, &quot;AR&quot;, &quot;AT&quot;, &quot;AU&quot;, &quot;AZ&quot;, &quot;BA&quot;, &quot;BB&quot;, &quot;BD&quot;, &quot;BE&quot;, &quot;BF&quot;, &quot;BG&quot;, &quot;BH&quot;, &quot;BI&quot;, &quot;BJ&quot;, &quot;BN&quot;, &quot;BO&quot;, &quot;BR&quot;, &quot;BS&quot;, &quot;BT&quot;, &quot;BW&quot;, &quot;BY&quot;, &quot;BZ&quot;, &quot;CA&quot;, &quot;CD&quot;, &quot;CG&quot;, &quot;CH&quot;, &quot;CI&quot;, &quot;CL&quot;, &quot;CM&quot;, &quot;CO&quot;, &quot;CR&quot;, &quot;CV&quot;, &quot;CW&quot;, &quot;CY&quot;, &quot;CZ&quot;, &quot;DE&quot;, &quot;DJ&quot;, &quot;DK&quot;, &quot;DM&quot;, &quot;DO&quot;, &quot;DZ&quot;, &quot;EC&quot;, &quot;EE&quot;, &quot;EG&quot;, &quot;ES&quot;, &quot;FI&quot;, &quot;FJ&quot;, &quot;FM&quot;, &quot;FR&quot;, &quot;GA&quot;, &quot;GB&quot;, &quot;GD&quot;, &quot;GE&quot;, &quot;GH&quot;, &quot;GM&quot;, &quot;GN&quot;, &quot;GQ&quot;, &quot;GR&quot;, &quot;GT&quot;, &quot;GW&quot;, &quot;GY&quot;, &quot;HK&quot;, &quot;HN&quot;, &quot;HR&quot;, &quot;HT&quot;, &quot;HU&quot;, &quot;ID&quot;, &quot;IE&quot;, &quot;IL&quot;, &quot;IN&quot;, &quot;IQ&quot;, &quot;IS&quot;, &quot;IT&quot;, &quot;JM&quot;, &quot;JO&quot;, &quot;JP&quot;, &quot;KE&quot;, &quot;KG&quot;, &quot;KH&quot;, &quot;KI&quot;, &quot;KM&quot;, &quot;KN&quot;, &quot;KR&quot;, &quot;KW&quot;, &quot;KZ&quot;, &quot;LA&quot;, &quot;LB&quot;, &quot;LC&quot;, &quot;LI&quot;, &quot;LK&quot;, &quot;LR&quot;, &quot;LS&quot;, &quot;LT&quot;, &quot;LU&quot;, &quot;LV&quot;, &quot;LY&quot;, &quot;MA&quot;, &quot;MC&quot;, &quot;MD&quot;, &quot;ME&quot;, &quot;MG&quot;, &quot;MH&quot;, &quot;MK&quot;, &quot;ML&quot;, &quot;MN&quot;, &quot;MO&quot;, &quot;MR&quot;, &quot;MT&quot;, &quot;MU&quot;, &quot;MV&quot;, &quot;MW&quot;, &quot;MX&quot;, &quot;MY&quot;, &quot;MZ&quot;, &quot;NA&quot;, &quot;NE&quot;, &quot;NG&quot;, &quot;NI&quot;, &quot;NL&quot;, &quot;NO&quot;, &quot;NP&quot;, &quot;NR&quot;, &quot;NZ&quot;, &quot;OM&quot;, &quot;PA&quot;, &quot;PE&quot;, &quot;PG&quot;, &quot;PH&quot;, &quot;PK&quot;, &quot;PL&quot;, &quot;PS&quot;, &quot;PT&quot;, &quot;PW&quot;, &quot;PY&quot;, &quot;QA&quot;, &quot;RO&quot;, &quot;RS&quot;, &quot;RW&quot;, &quot;SA&quot;, &quot;SB&quot;, &quot;SC&quot;, &quot;SE&quot;, &quot;SG&quot;, &quot;SI&quot;, &quot;SK&quot;, &quot;SL&quot;, &quot;SM&quot;, &quot;SN&quot;, &quot;SR&quot;, &quot;ST&quot;, &quot;SV&quot;, &quot;SZ&quot;, &quot;TD&quot;, &quot;TG&quot;, &quot;TH&quot;, &quot;TJ&quot;, &quot;TL&quot;, &quot;TN&quot;, &quot;TO&quot;, &quot;TR&quot;, &quot;TT&quot;, &quot;TV&quot;, &quot;TW&quot;, &quot;TZ&quot;, &quot;UA&quot;, &quot;UG&quot;, &quot;US&quot;, &quot;UY&quot;, &quot;UZ&quot;, &quot;VC&quot;, &quot;VE&quot;, &quot;VN&quot;, &quot;VU&quot;, &quot;WS&quot;, &quot;XK&quot;, &quot;ZA&quot;, &quot;ZM&quot;, &quot;ZW&quot; ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/6ebdbUXZn5AURKeRNXqiay&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/6ebdbUXZn5AURKeRNXqiay&quot;,
+        &quot;id&quot; : &quot;6ebdbUXZn5AURKeRNXqiay&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b273d0cc776df48f41116f43d449&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e02d0cc776df48f41116f43d449&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00004851d0cc776df48f41116f43d449&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;Ölürüm Sana&quot;,
+        &quot;release_date&quot; : &quot;1997&quot;,
+        &quot;release_date_precision&quot; : &quot;year&quot;,
+        &quot;total_tracks&quot; : 11,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:6ebdbUXZn5AURKeRNXqiay&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/2yMN0IP20GOaN6q0p0zL5k&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/2yMN0IP20GOaN6q0p0zL5k&quot;,
+        &quot;id&quot; : &quot;2yMN0IP20GOaN6q0p0zL5k&quot;,
+        &quot;name&quot; : &quot;Tarkan&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:2yMN0IP20GOaN6q0p0zL5k&quot;
+      } ],
+      &quot;available_markets&quot; : [ &quot;AD&quot;, &quot;AE&quot;, &quot;AG&quot;, &quot;AL&quot;, &quot;AM&quot;, &quot;AO&quot;, &quot;AR&quot;, &quot;AT&quot;, &quot;AU&quot;, &quot;AZ&quot;, &quot;BA&quot;, &quot;BB&quot;, &quot;BD&quot;, &quot;BE&quot;, &quot;BF&quot;, &quot;BG&quot;, &quot;BH&quot;, &quot;BI&quot;, &quot;BJ&quot;, &quot;BN&quot;, &quot;BO&quot;, &quot;BR&quot;, &quot;BS&quot;, &quot;BT&quot;, &quot;BW&quot;, &quot;BY&quot;, &quot;BZ&quot;, &quot;CA&quot;, &quot;CD&quot;, &quot;CG&quot;, &quot;CH&quot;, &quot;CI&quot;, &quot;CL&quot;, &quot;CM&quot;, &quot;CO&quot;, &quot;CR&quot;, &quot;CV&quot;, &quot;CW&quot;, &quot;CY&quot;, &quot;CZ&quot;, &quot;DE&quot;, &quot;DJ&quot;, &quot;DK&quot;, &quot;DM&quot;, &quot;DO&quot;, &quot;DZ&quot;, &quot;EC&quot;, &quot;EE&quot;, &quot;EG&quot;, &quot;ES&quot;, &quot;FI&quot;, &quot;FJ&quot;, &quot;FM&quot;, &quot;FR&quot;, &quot;GA&quot;, &quot;GB&quot;, &quot;GD&quot;, &quot;GE&quot;, &quot;GH&quot;, &quot;GM&quot;, &quot;GN&quot;, &quot;GQ&quot;, &quot;GR&quot;, &quot;GT&quot;, &quot;GW&quot;, &quot;GY&quot;, &quot;HK&quot;, &quot;HN&quot;, &quot;HR&quot;, &quot;HT&quot;, &quot;HU&quot;, &quot;ID&quot;, &quot;IE&quot;, &quot;IL&quot;, &quot;IN&quot;, &quot;IQ&quot;, &quot;IS&quot;, &quot;IT&quot;, &quot;JM&quot;, &quot;JO&quot;, &quot;JP&quot;, &quot;KE&quot;, &quot;KG&quot;, &quot;KH&quot;, &quot;KI&quot;, &quot;KM&quot;, &quot;KN&quot;, &quot;KR&quot;, &quot;KW&quot;, &quot;KZ&quot;, &quot;LA&quot;, &quot;LB&quot;, &quot;LC&quot;, &quot;LI&quot;, &quot;LK&quot;, &quot;LR&quot;, &quot;LS&quot;, &quot;LT&quot;, &quot;LU&quot;, &quot;LV&quot;, &quot;LY&quot;, &quot;MA&quot;, &quot;MC&quot;, &quot;MD&quot;, &quot;ME&quot;, &quot;MG&quot;, &quot;MH&quot;, &quot;MK&quot;, &quot;ML&quot;, &quot;MN&quot;, &quot;MO&quot;, &quot;MR&quot;, &quot;MT&quot;, &quot;MU&quot;, &quot;MV&quot;, &quot;MW&quot;, &quot;MX&quot;, &quot;MY&quot;, &quot;MZ&quot;, &quot;NA&quot;, &quot;NE&quot;, &quot;NG&quot;, &quot;NI&quot;, &quot;NL&quot;, &quot;NO&quot;, &quot;NP&quot;, &quot;NR&quot;, &quot;NZ&quot;, &quot;OM&quot;, &quot;PA&quot;, &quot;PE&quot;, &quot;PG&quot;, &quot;PH&quot;, &quot;PK&quot;, &quot;PL&quot;, &quot;PS&quot;, &quot;PT&quot;, &quot;PW&quot;, &quot;PY&quot;, &quot;QA&quot;, &quot;RO&quot;, &quot;RS&quot;, &quot;RW&quot;, &quot;SA&quot;, &quot;SB&quot;, &quot;SC&quot;, &quot;SE&quot;, &quot;SG&quot;, &quot;SI&quot;, &quot;SK&quot;, &quot;SL&quot;, &quot;SM&quot;, &quot;SN&quot;, &quot;SR&quot;, &quot;ST&quot;, &quot;SV&quot;, &quot;SZ&quot;, &quot;TD&quot;, &quot;TG&quot;, &quot;TH&quot;, &quot;TJ&quot;, &quot;TL&quot;, &quot;TN&quot;, &quot;TO&quot;, &quot;TR&quot;, &quot;TT&quot;, &quot;TV&quot;, &quot;TW&quot;, &quot;TZ&quot;, &quot;UA&quot;, &quot;UG&quot;, &quot;US&quot;, &quot;UY&quot;, &quot;UZ&quot;, &quot;VC&quot;, &quot;VE&quot;, &quot;VN&quot;, &quot;VU&quot;, &quot;WS&quot;, &quot;XK&quot;, &quot;ZA&quot;, &quot;ZM&quot;, &quot;ZW&quot; ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 235218,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR1290601381&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/6vEL7E8TGzrxuxbrgdlkLL&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/6vEL7E8TGzrxuxbrgdlkLL&quot;,
+      &quot;id&quot; : &quot;6vEL7E8TGzrxuxbrgdlkLL&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Şımarık&quot;,
+      &quot;popularity&quot; : 66,
+      &quot;preview_url&quot; : &quot;https://p.scdn.co/mp3-preview/17a01659aaaec688804f29b4e82b6edcee27ae71?cid=774b29d4f13844c495f206cafdad9c86&quot;,
+      &quot;track_number&quot; : 1,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:6vEL7E8TGzrxuxbrgdlkLL&quot;
+    }
+  } ],
+  &quot;limit&quot; : 20,
+  &quot;next&quot; : null,
+  &quot;offset&quot; : 0,
+  &quot;previous&quot; : null,
+  &quot;total&quot; : 3
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uris = getUris(response.items.length,response)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#All songs in the list of liked songs are deleted.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param ids = uris</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">394</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.68">10:43:43.939 request:
+2 &gt; DELETE https://api.spotify.com/v1/me/tracks?ids=0zLhtDb5qftpfQRknw5XIl%2C65TXGnfQ1dwuhkksqu7yo0%2C6vEL7E8TGzrxuxbrgdlkLL
+2 &gt; Content-Type: application/json
+2 &gt; Authorization: Bearer BQDXTCQN2XCTjF1X2nK0_UJl8Q_mH3aleO6lmiJgMM31lchaYhxOq5NaeJUezDvt5kYmMyFHs21a2LTE1T1ZW-Dr11VX2mK_TWRl_uWLENpdAewN8Xv6q3GAXsksQHdNkFWpPEm0ZcMEgo88mqBHjaD_sI1AIMKnkbaYRQU5nLeXp8FrCTi6a3lg_3Hj25waXO6lln0ks5L6LCtW-wagPogx_8WXGeGoEQPXvKHZN8V1RZqftMzk5XCa3svgPa7FYtLDho98M-waP36QPy9MCVliFuupg0HTnZwZbXgj9A
+2 &gt; Host: api.spotify.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:43:44.329 response time in milliseconds: 389
+2 &lt; 200
+2 &lt; content-type: text/plain; charset=utf-8
+2 &lt; cache-control: private, max-age=0
+2 &lt; x-robots-tag: noindex, nofollow
+2 &lt; access-control-allow-origin: *
+2 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+2 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+2 &lt; access-control-allow-credentials: true
+2 &lt; access-control-max-age: 604800
+2 &lt; Content-Length: 0
+2 &lt; strict-transport-security: max-age=31536000
+2 &lt; x-content-type-options: nosniff
+2 &lt; date: Mon, 27 Jun 2022 07:43:51 GMT
+2 &lt; server: envoy
+2 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+2 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#It is checked that the songs are deleted.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">398</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.72">10:43:44.331 request:
+3 &gt; GET https://api.spotify.com/v1/me/tracks
+3 &gt; Content-Type: application/json
+3 &gt; Authorization: Bearer BQDXTCQN2XCTjF1X2nK0_UJl8Q_mH3aleO6lmiJgMM31lchaYhxOq5NaeJUezDvt5kYmMyFHs21a2LTE1T1ZW-Dr11VX2mK_TWRl_uWLENpdAewN8Xv6q3GAXsksQHdNkFWpPEm0ZcMEgo88mqBHjaD_sI1AIMKnkbaYRQU5nLeXp8FrCTi6a3lg_3Hj25waXO6lln0ks5L6LCtW-wagPogx_8WXGeGoEQPXvKHZN8V1RZqftMzk5XCa3svgPa7FYtLDho98M-waP36QPy9MCVliFuupg0HTnZwZbXgj9A
+3 &gt; Host: api.spotify.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+10:43:44.727 response time in milliseconds: 396
+3 &lt; 200
+3 &lt; content-type: application/json; charset=utf-8
+3 &lt; cache-control: private, max-age=0
+3 &lt; etag: &quot;MC-IjcwNzJhOGVmZDM3YzI1MjJiNzRhMGE5ZmI2MDNmMGFjIg==&quot;
+3 &lt; vary: Authorization
+3 &lt; x-robots-tag: noindex, nofollow
+3 &lt; access-control-allow-origin: *
+3 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+3 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+3 &lt; access-control-allow-credentials: true
+3 &lt; access-control-max-age: 604800
+3 &lt; strict-transport-security: max-age=31536000
+3 &lt; x-content-type-options: nosniff
+3 &lt; date: Mon, 27 Jun 2022 07:43:52 GMT
+3 &lt; server: envoy
+3 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+3 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+3 &lt; Transfer-Encoding: chunked
+{
+  &quot;href&quot; : &quot;https://api.spotify.com/v1/me/tracks?offset=0&amp;limit=20&quot;,
+  &quot;items&quot; : [ ],
+  &quot;limit&quot; : 20,
+  &quot;next&quot; : null,
+  &quot;offset&quot; : 0,
+  &quot;previous&quot; : null,
+  &quot;total&quot; : 0
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.73">
+      <div class="step-ref passed">73</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.total == 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

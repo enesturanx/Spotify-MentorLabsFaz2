@@ -4,6 +4,7 @@ Feature: End to end Test
     * call read 'classpath:com/spotify/variables.json'
     * url 'https://api.spotify.com/v1'
     * configure headers = {Content-Type: 'application/json', Authorization: #(authID)}
+    * def random = function(max){ return Math.floor(Math.random() * (max-3+1)) + 3 }
     And def clickFunction =
   """
   function(element,length) {
@@ -35,9 +36,15 @@ Feature: End to end Test
     Then match waitFor(homePage.userBar).enabled == true
 
     #Scroll to 'mood' category and click and then click 'Positive' playlist .
-    When scroll(category.ruhhali)
-    And waitFor(category.ruhhali).click()
-    And waitFor(playList.pozitif).click()
+    * waitFor(homePage.categoryList)
+    * def categoryList = locateAll(homePage.categoryList)
+    * categoryList[random(categoryList.length)].click()
+    * waitFor(homePage.categoryPl)
+    * def plList = locateAll(homePage.categoryPl)
+    * plList[random(plList.length)].click()
+    #When scroll(category.ruhhali)
+    #And waitFor(category.ruhhali).click()
+    #And waitFor(playList.pozitif).click()
     * waitFor(playList.title)
 
     #The songs in the playlist are filtered and the first 5 songs are added to the likes.

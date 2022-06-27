@@ -3,8 +3,8 @@
 
 * Sisteme başarılı şekilde giriş yapılır.
 * Anasayfada 'Ruh Hali' kategorisine scroll yapılır.
-* 'Ruh Hali' kategorisine tıklanır.
-* Bu kategori üzerinde 'Pozitif' çalma listesine girilir.(UI)
+* Random bir kategoriye tıklanır.
+* Bu kategori üzerinde random çalma listesine girilir.(UI)
 * Bu çalma listesinden ilk 3 şarkı Beğenilen şarkılar listesine eklenir.(UI)
 * Beğenilen şarkılar butonuna tıklanır.(UI)
 * Beğenilen şarkılar listesi çalıştırılır.(UI)

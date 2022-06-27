@@ -50,21 +50,3 @@ Feature: Hybrid Test Spotify
     And match response.is_playing == true
     * delay(15000)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

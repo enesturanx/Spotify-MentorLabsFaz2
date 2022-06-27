@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.com.spotify.endtoendtest.endtoend</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-27 10:50:33 ÖÖ</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:31]"><span>[1:31]</span> <span>Endtoend Test Scenario</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/com/spotify/endtoendtest/endtoend.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">End to end Test</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:31]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:31]</span>
+                <span class="scenario-name">Endtoend Test Scenario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>30204</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:31]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = {type:&#39;chromedriver&#39; , executable:&#39;src/test/resources/chromedriver.exe&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">24</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">10:49:58.418 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read &#39;classpath:com/spotify/variables.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.spotify.com/v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = {Content-Type: &#39;application/json&#39;, Authorization: #(authID)}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def random = function(max){ return Math.floor(Math.random() * (max-3+1)) + 3 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def clickFunction =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.8">function(element,length) {
+    for(var i = 0; i &lt; length ; i++){
+    element[i].click();
+    }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:31]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref bg-step">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def getUris =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.17">function(length,y) {
+    var data = &quot;&quot;;
+    for(var i = 0; i&lt; length ; i++){
+        if(i&gt;0){
+          data += &quot;,&quot;;
+        }
+      data += y.items[i].track.id ;
+    }
+    return data;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Login</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4177</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">10:49:58.497 preferred port 9515 not available, will use: 52771
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def login = callonce read(&#39;classpath:com/spotify/login.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3617</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">10:50:06.284 &lt;&lt; lock released, cached callonce: read(&#39;classpath:com/spotify/login.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.35.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">com.spotify.login</div>
+      </div>
+      <div class="time-cell passed">3587</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment"># Login to account(UI)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>maximize()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">138</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35.0.call.0.6">10:50:02.678 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:com/spotify/login.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>waitFor(login.loginButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">50</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.username).input(username)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3221</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35.0.call.0.8">10:50:02.887 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.password).input(password)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">146</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.35.0.call">
+    <div class="step-container" id="0.35.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(login.sendButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">32</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match waitFor(homePage.userBar).enabled == true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3215</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">10:50:06.305 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Scroll to &#39;mood&#39; category and click and then click &#39;Positive&#39; playlist .</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(homePage.categoryList)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def categoryList = locateAll(homePage.categoryList)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>categoryList[random(categoryList.length)].click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">41</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(homePage.categoryPl)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">118</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def plList = locateAll(homePage.categoryPl)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">89</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>plList[random(plList.length)].click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">124</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#When scroll(category.ruhhali)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And waitFor(category.ruhhali).click()</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And waitFor(playList.pozitif).click()</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>waitFor(playList.title)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3037</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">10:50:09.912 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#The songs in the playlist are filtered and the first 5 songs are added to the likes.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def filter = function(x){return x.attribute(&#39;class&#39;).contains(song.addButton) }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def songList = locateAll(song.addButtons, filter)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">318</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>clickFunction(songList,3)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">137</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Click on the &#39;Favorite Songs&#39; button. And the songs in the list are started.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(homePage.favoriteSongs).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">99</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>waitFor(song.playButton).click()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3080</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.57">10:50:13.506 waitUntil (js) - retry #1
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>delay(10000)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10006</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#The song ids in the &#39;favorite songs&#39; list are obtained.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">768</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.62">10:50:26.594 request:
+1 &gt; GET https://api.spotify.com/v1/me/tracks
+1 &gt; Content-Type: application/json
+1 &gt; Authorization: Bearer BQDmL4HkgO_NSZ-AtCC1UlhD9peyd0xc1Lx_TstZWdEvrqhqOh9Xut-3qpHrBWNsgUcPhn3xh1vZ1cp7HOFkeE62nCRsNv7iMq5g55PDQvohwnTHcqudYfEiF7zH6Rem09DCnMLh4xHBJs8rGy6buQE__npXVhnTUzbzK1R0bdV9ub0ehUqYWB4whqO3Ww3Kps7sNExq5h6IGasGNER4WkWyiEweaX6JIUGUFhc9GS6hGXPBtxTLaqfETxahM_90K4inOEywsWVGZJdcrW2ZguQWEh2jO91yycTanYak4g
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:50:27.347 response time in milliseconds: 748
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; etag: &quot;MC-ImIzOWYxZjEwODNhNzA5NTEzZmY3NTc2ZmI2NGNiNzA2Ig==&quot;
+1 &lt; vary: Authorization
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 27 Jun 2022 07:50:34 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;href&quot; : &quot;https://api.spotify.com/v1/me/tracks?offset=0&amp;limit=20&quot;,
+  &quot;items&quot; : [ {
+    &quot;added_at&quot; : &quot;2022-06-27T07:50:21Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/3eVuump9qyK0YCQQo4mKbc&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/3eVuump9qyK0YCQQo4mKbc&quot;,
+          &quot;id&quot; : &quot;3eVuump9qyK0YCQQo4mKbc&quot;,
+          &quot;name&quot; : &quot;Barış Manço&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:3eVuump9qyK0YCQQo4mKbc&quot;
+        } ],
+        &quot;available_markets&quot; : [ ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/2Q99eFm7S7q7ji5Kiqz6ik&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/2Q99eFm7S7q7ji5Kiqz6ik&quot;,
+        &quot;id&quot; : &quot;2Q99eFm7S7q7ji5Kiqz6ik&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b2734c7b3d7060578016a82a8a8d&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e024c7b3d7060578016a82a8a8d&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d000048514c7b3d7060578016a82a8a8d&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;Hal Hal&quot;,
+        &quot;release_date&quot; : &quot;1989-12-22&quot;,
+        &quot;release_date_precision&quot; : &quot;day&quot;,
+        &quot;total_tracks&quot; : 16,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:2Q99eFm7S7q7ji5Kiqz6ik&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/3eVuump9qyK0YCQQo4mKbc&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/3eVuump9qyK0YCQQo4mKbc&quot;,
+        &quot;id&quot; : &quot;3eVuump9qyK0YCQQo4mKbc&quot;,
+        &quot;name&quot; : &quot;Barış Manço&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:3eVuump9qyK0YCQQo4mKbc&quot;
+      } ],
+      &quot;available_markets&quot; : [ ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 245840,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR0070501070&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/6mxk16qj6voBakMjXQr1o4&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/6mxk16qj6voBakMjXQr1o4&quot;,
+      &quot;id&quot; : &quot;6mxk16qj6voBakMjXQr1o4&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Alla Beni Pulla Beni&quot;,
+      &quot;popularity&quot; : 0,
+      &quot;preview_url&quot; : null,
+      &quot;track_number&quot; : 3,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:6mxk16qj6voBakMjXQr1o4&quot;
+    }
+  }, {
+    &quot;added_at&quot; : &quot;2022-06-27T07:50:21Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/691svprNZf0oJTi1L0eYy6&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/691svprNZf0oJTi1L0eYy6&quot;,
+          &quot;id&quot; : &quot;691svprNZf0oJTi1L0eYy6&quot;,
+          &quot;name&quot; : &quot;Özdemir Erdoğan&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:691svprNZf0oJTi1L0eYy6&quot;
+        } ],
+        &quot;available_markets&quot; : [ ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/1rhx2xKE8DX0wxd9fjV6iy&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/1rhx2xKE8DX0wxd9fjV6iy&quot;,
+        &quot;id&quot; : &quot;1rhx2xKE8DX0wxd9fjV6iy&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b2733f1794bcfbc0733846205c7f&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e023f1794bcfbc0733846205c7f&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d000048513f1794bcfbc0733846205c7f&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;Yorumcu&quot;,
+        &quot;release_date&quot; : &quot;1993-04-07&quot;,
+        &quot;release_date_precision&quot; : &quot;day&quot;,
+        &quot;total_tracks&quot; : 15,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:1rhx2xKE8DX0wxd9fjV6iy&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/691svprNZf0oJTi1L0eYy6&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/691svprNZf0oJTi1L0eYy6&quot;,
+        &quot;id&quot; : &quot;691svprNZf0oJTi1L0eYy6&quot;,
+        &quot;name&quot; : &quot;Özdemir Erdoğan&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:691svprNZf0oJTi1L0eYy6&quot;
+      } ],
+      &quot;available_markets&quot; : [ ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 206506,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR5940800070&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/4NJk0lLs8yStxeTOcsrBAh&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/4NJk0lLs8yStxeTOcsrBAh&quot;,
+      &quot;id&quot; : &quot;4NJk0lLs8yStxeTOcsrBAh&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Gurbet&quot;,
+      &quot;popularity&quot; : 0,
+      &quot;preview_url&quot; : null,
+      &quot;track_number&quot; : 6,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:4NJk0lLs8yStxeTOcsrBAh&quot;
+    }
+  }, {
+    &quot;added_at&quot; : &quot;2022-06-27T07:50:21Z&quot;,
+    &quot;track&quot; : {
+      &quot;album&quot; : {
+        &quot;album_type&quot; : &quot;album&quot;,
+        &quot;artists&quot; : [ {
+          &quot;external_urls&quot; : {
+            &quot;spotify&quot; : &quot;https://open.spotify.com/artist/4GJuQAAePQH9qyr9Bj0Xv3&quot;
+          },
+          &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/4GJuQAAePQH9qyr9Bj0Xv3&quot;,
+          &quot;id&quot; : &quot;4GJuQAAePQH9qyr9Bj0Xv3&quot;,
+          &quot;name&quot; : &quot;Erkut Taçkın&quot;,
+          &quot;type&quot; : &quot;artist&quot;,
+          &quot;uri&quot; : &quot;spotify:artist:4GJuQAAePQH9qyr9Bj0Xv3&quot;
+        } ],
+        &quot;available_markets&quot; : [ ],
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/album/3Xw54OMpvGtodE6OZvkngD&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/albums/3Xw54OMpvGtodE6OZvkngD&quot;,
+        &quot;id&quot; : &quot;3Xw54OMpvGtodE6OZvkngD&quot;,
+        &quot;images&quot; : [ {
+          &quot;height&quot; : 640,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d0000b273f58ddc3c1b2a4835512d839a&quot;,
+          &quot;width&quot; : 640
+        }, {
+          &quot;height&quot; : 300,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00001e02f58ddc3c1b2a4835512d839a&quot;,
+          &quot;width&quot; : 300
+        }, {
+          &quot;height&quot; : 64,
+          &quot;url&quot; : &quot;https://i.scdn.co/image/ab67616d00004851f58ddc3c1b2a4835512d839a&quot;,
+          &quot;width&quot; : 64
+        } ],
+        &quot;name&quot; : &quot;En İyileriyle Erkut Taçkın&quot;,
+        &quot;release_date&quot; : &quot;2009-10-20&quot;,
+        &quot;release_date_precision&quot; : &quot;day&quot;,
+        &quot;total_tracks&quot; : 20,
+        &quot;type&quot; : &quot;album&quot;,
+        &quot;uri&quot; : &quot;spotify:album:3Xw54OMpvGtodE6OZvkngD&quot;
+      },
+      &quot;artists&quot; : [ {
+        &quot;external_urls&quot; : {
+          &quot;spotify&quot; : &quot;https://open.spotify.com/artist/4GJuQAAePQH9qyr9Bj0Xv3&quot;
+        },
+        &quot;href&quot; : &quot;https://api.spotify.com/v1/artists/4GJuQAAePQH9qyr9Bj0Xv3&quot;,
+        &quot;id&quot; : &quot;4GJuQAAePQH9qyr9Bj0Xv3&quot;,
+        &quot;name&quot; : &quot;Erkut Taçkın&quot;,
+        &quot;type&quot; : &quot;artist&quot;,
+        &quot;uri&quot; : &quot;spotify:artist:4GJuQAAePQH9qyr9Bj0Xv3&quot;
+      } ],
+      &quot;available_markets&quot; : [ ],
+      &quot;disc_number&quot; : 1,
+      &quot;duration_ms&quot; : 171333,
+      &quot;explicit&quot; : false,
+      &quot;external_ids&quot; : {
+        &quot;isrc&quot; : &quot;TR2610900687&quot;
+      },
+      &quot;external_urls&quot; : {
+        &quot;spotify&quot; : &quot;https://open.spotify.com/track/2jjjFfFZFR1zlaXeGKhacv&quot;
+      },
+      &quot;href&quot; : &quot;https://api.spotify.com/v1/tracks/2jjjFfFZFR1zlaXeGKhacv&quot;,
+      &quot;id&quot; : &quot;2jjjFfFZFR1zlaXeGKhacv&quot;,
+      &quot;is_local&quot; : false,
+      &quot;name&quot; : &quot;Sevmek İstiyorum&quot;,
+      &quot;popularity&quot; : 0,
+      &quot;preview_url&quot; : null,
+      &quot;track_number&quot; : 10,
+      &quot;type&quot; : &quot;track&quot;,
+      &quot;uri&quot; : &quot;spotify:track:2jjjFfFZFR1zlaXeGKhacv&quot;
+    }
+  } ],
+  &quot;limit&quot; : 20,
+  &quot;next&quot; : null,
+  &quot;offset&quot; : 0,
+  &quot;previous&quot; : null,
+  &quot;total&quot; : 3
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uris = getUris(response.items.length,response)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#All songs in the list of liked songs are deleted.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param ids = uris</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">798</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.68">10:50:27.367 request:
+2 &gt; DELETE https://api.spotify.com/v1/me/tracks?ids=6mxk16qj6voBakMjXQr1o4%2C4NJk0lLs8yStxeTOcsrBAh%2C2jjjFfFZFR1zlaXeGKhacv
+2 &gt; Content-Type: application/json
+2 &gt; Authorization: Bearer BQDmL4HkgO_NSZ-AtCC1UlhD9peyd0xc1Lx_TstZWdEvrqhqOh9Xut-3qpHrBWNsgUcPhn3xh1vZ1cp7HOFkeE62nCRsNv7iMq5g55PDQvohwnTHcqudYfEiF7zH6Rem09DCnMLh4xHBJs8rGy6buQE__npXVhnTUzbzK1R0bdV9ub0ehUqYWB4whqO3Ww3Kps7sNExq5h6IGasGNER4WkWyiEweaX6JIUGUFhc9GS6hGXPBtxTLaqfETxahM_90K4inOEywsWVGZJdcrW2ZguQWEh2jO91yycTanYak4g
+2 &gt; Host: api.spotify.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:50:28.160 response time in milliseconds: 792
+2 &lt; 200
+2 &lt; content-type: text/plain; charset=utf-8
+2 &lt; cache-control: private, max-age=0
+2 &lt; x-robots-tag: noindex, nofollow
+2 &lt; access-control-allow-origin: *
+2 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+2 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+2 &lt; access-control-allow-credentials: true
+2 &lt; access-control-max-age: 604800
+2 &lt; Content-Length: 0
+2 &lt; strict-transport-security: max-age=31536000
+2 &lt; x-content-type-options: nosniff
+2 &lt; date: Mon, 27 Jun 2022 07:50:35 GMT
+2 &lt; server: envoy
+2 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+2 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#It is checked that the songs are deleted.</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me/tracks&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">487</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.72">10:50:28.162 request:
+3 &gt; GET https://api.spotify.com/v1/me/tracks
+3 &gt; Content-Type: application/json
+3 &gt; Authorization: Bearer BQDmL4HkgO_NSZ-AtCC1UlhD9peyd0xc1Lx_TstZWdEvrqhqOh9Xut-3qpHrBWNsgUcPhn3xh1vZ1cp7HOFkeE62nCRsNv7iMq5g55PDQvohwnTHcqudYfEiF7zH6Rem09DCnMLh4xHBJs8rGy6buQE__npXVhnTUzbzK1R0bdV9ub0ehUqYWB4whqO3Ww3Kps7sNExq5h6IGasGNER4WkWyiEweaX6JIUGUFhc9GS6hGXPBtxTLaqfETxahM_90K4inOEywsWVGZJdcrW2ZguQWEh2jO91yycTanYak4g
+3 &gt; Host: api.spotify.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+10:50:28.647 response time in milliseconds: 485
+3 &lt; 200
+3 &lt; content-type: application/json; charset=utf-8
+3 &lt; cache-control: private, max-age=0
+3 &lt; etag: &quot;MC-IjcwNzJhOGVmZDM3YzI1MjJiNzRhMGE5ZmI2MDNmMGFjIg==&quot;
+3 &lt; vary: Authorization
+3 &lt; x-robots-tag: noindex, nofollow
+3 &lt; access-control-allow-origin: *
+3 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+3 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+3 &lt; access-control-allow-credentials: true
+3 &lt; access-control-max-age: 604800
+3 &lt; strict-transport-security: max-age=31536000
+3 &lt; x-content-type-options: nosniff
+3 &lt; date: Mon, 27 Jun 2022 07:50:35 GMT
+3 &lt; server: envoy
+3 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+3 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+3 &lt; Transfer-Encoding: chunked
+{
+  &quot;href&quot; : &quot;https://api.spotify.com/v1/me/tracks?offset=0&amp;limit=20&quot;,
+  &quot;items&quot; : [ ],
+  &quot;limit&quot; : 20,
+  &quot;next&quot; : null,
+  &quot;offset&quot; : 0,
+  &quot;previous&quot; : null,
+  &quot;total&quot; : 0
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.73">
+      <div class="step-ref passed">73</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.total == 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,5 +1,5 @@
 {
-  "authID" : "Bearer BQCW_KtMPY1iDHo0-XK7OFOplrbvIcjHFiMPIHrCwJe7ftVTGJLz3nMuSVbUizVrJuQoaYybpZWlFX41uRgkjf3Eh5yHp1iteGS7z9F_Ff4ciGkLusKf46MgSJhn7r5tIL7BfbTDFZOMtpDvkGF8NBJkYYTwpXrKdHpF4HdOloEujH4geRP_wpKVq5u6IvuVrjwoYQoAl1e_deNAQHESCp-xyKUNYrRsLrez1Kv9uGh3sAv4fAgMng1MFItLeTG7YZoAcDG15s_NFOQdd92XrTzDmaWTYhpdDFC1e1GZbQ",
+  "authID" : "Bearer BQDmL4HkgO_NSZ-AtCC1UlhD9peyd0xc1Lx_TstZWdEvrqhqOh9Xut-3qpHrBWNsgUcPhn3xh1vZ1cp7HOFkeE62nCRsNv7iMq5g55PDQvohwnTHcqudYfEiF7zH6Rem09DCnMLh4xHBJs8rGy6buQE__npXVhnTUzbzK1R0bdV9ub0ehUqYWB4whqO3Ww3Kps7sNExq5h6IGasGNER4WkWyiEweaX6JIUGUFhc9GS6hGXPBtxTLaqfETxahM_90K4inOEywsWVGZJdcrW2ZguQWEh2jO91yycTanYak4g",
   "username" : "testenes45@gmail.com",
   "password" : "Testinium1548",
   "login": {
@@ -11,7 +11,9 @@
   "homePage": {
     "userBar": ".odcjv30UQnjaTv4sylc0",
     "playList": ".AINMAUImkAYJd4ertQxy",
-    "favoriteSongs": ".r9YzlaAPnM2LGK97GSfa"
+    "favoriteSongs": ".r9YzlaAPnM2LGK97GSfa",
+    "categoryList": ".MfVrtIzQJ7iZXfRWg6eM",
+    "categoryPl": "div[data-testid=card-click-handler]"
   },
   "playList": {
     "pozitif": "{div}Pozitif",
@@ -20,7 +22,7 @@
     "title": ".oq1ci28WPaRsWkvRiB_J"
   },
   "category": {
-    "ruhhali": "{a}Ruh Hali"
+    "ruhhali": "{a}Mutlu"
   },
   "song": {
     "addButton": "tGKwoPuvNBNK3TzCS5OH",
